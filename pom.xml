@@ -22,9 +22,9 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 	<log4j.version>1.2.17</log4j.version>
-	<sonar.host.url>http://3.82.117.251:9000/</sonar.host.url>
+	<sonar.host.url>http://13.114.147.21:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
-	<sonar.password>srikanth</sonar.password> 
+	<sonar.password>prasad</sonar.password> 
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -130,14 +130,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>srikanth-release</name>
-	      <url>http://44.201.227.255:8081/repository/srikanth-release/</url>
+	      <name>http://maven-release/</name>
+	      <url>http://http://3.112.206.94:8081/repository/maven-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>srikanth-snapshot</name>
-	      <url>http://44.201.227.255:8081/repository/srikanth-snapshot/</url>
+	      <name>maven-snapshot</name>
+	      <url>http://3.112.206.94:8081/repository/maven-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
