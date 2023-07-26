@@ -137,7 +137,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>prasad-snapshot</name>
-	      <url>http://3.112.206.94:8081/repository/prasad-snapsho/</url>
+	      <url>http://3.112.206.94:8081/repository/prasad-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
