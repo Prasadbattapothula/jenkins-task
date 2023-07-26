@@ -130,14 +130,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>http://maven-release/</name>
-	      <url>http://http://3.112.206.94:8081/repository/maven-release/</url>
+	      <name>http://prasd-release/</name>
+	      <url>http://3.112.206.94:8081/repository/prasad-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>maven-snapshot</name>
-	      <url>http://3.112.206.94:8081/repository/maven-snapshot/</url>
+	      <name>prasad-snapshot</name>
+	      <url>http://3.112.206.94:8081/repository/prasad-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
